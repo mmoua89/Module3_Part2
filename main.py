@@ -12,7 +12,7 @@ def main():
         return
 
     if int(time_now) < 0 or int(time_now) > 24:
-        print('Please try again. The (current time) is not in the range of 0 to 23.')
+        print('Please try again. The (current time) is not in the range of 0 to 24.')
         return
 
     if int(hour_wait) < 0:
